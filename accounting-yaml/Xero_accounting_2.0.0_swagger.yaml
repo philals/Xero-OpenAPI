@@ -5547,6 +5547,11 @@ paths:
       summary: Allows you to retrieve any sales invoices or purchase bills
       parameters:
         - in: header
+          name: Xero-Tenant-Id
+          description: Xero identifier for Tenant
+          schema:
+            type: string
+        - in: header
           name: If-Modified-Since
           description: Only records created or modified since this timestamp will be
             returned
