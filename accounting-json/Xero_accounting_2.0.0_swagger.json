@@ -3472,9 +3472,7 @@
     "/connections": {
       "x-related-model": "Connection",
       "get": {
-        "tags": [
-          "Connections"
-        ],
+        "tags": ["Accounting"],
         "operationId": "getConnections",
         "summary": "Get active connections",
         "responses": {
